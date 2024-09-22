@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+.button {
+  @apply flex items-center gap-2 text-xs p-2 bg-gray-100 rounded-lg justify-center mb-1 hover;
+}
+
+.hover {
+  @apply transform transition-transform duration-200 hover:scale-110;
+}
